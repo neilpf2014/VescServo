@@ -14,23 +14,11 @@ class SerialInput
         HardwareSerial* SerialHard = NULL;
 
     public:
-
         /**
 		 * @brief      Class constructor
 		 */
         SerialInput(void);
-
-        /**
-		 * @brief      Class constructor
-         * @param      Sz - buffer size
-		 */
         SerialInput(int Sz);
-
-        
-        /**
-		 * @brief      Class constructor
-         * @param      Sz - buffer size. port pointer to hardware serial port
-		 */
         SerialInput(int Sz, HardwareSerial* port);
 
         /**
